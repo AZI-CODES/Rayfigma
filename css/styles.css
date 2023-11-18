@@ -617,13 +617,15 @@ ul {
   place-items: center;
   border-radius: 6px;
   box-shadow: 0.5px 0.5px 2px 4px #f0f0f2;
-  /* background-image: url("/assets/icons/Rectangle\ 20.svg"); */
+  position: relative;
 }
-.our-rel img {
-  height: 190px;
+.status {
+  position: absolute;
+  top: 6%;
 }
 .ourimage {
   border-radius: 50%;
+  height: 190px;
 }
 
 .our-rel-d {
@@ -690,7 +692,9 @@ ul {
   padding-bottom: 80px;
 }
 .our-relativee {
-  position: relative;
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
 .slid {
   place-items: center;
@@ -727,11 +731,13 @@ ul {
 /* .blog img:hover {
   cursor: pointer;
 } */
-.upperblog {
-  height: 228px;
-  display: flex;
-  /* background-image: url("/assets/icons/snapchat.svg"); */
+
+.lowerblog {
+  padding: 18px;
+  display: grid;
+  gap: 1rem;
 }
+
 .lowerblog h6 {
   font-size: 20px;
   font-weight: 600;
@@ -742,6 +748,101 @@ ul {
   color: #6c6c72;
 }
 
+.lowerblog a {
+  padding: 2rem 0;
+  color: #5851ea;
+  font-weight: 600;
+}
+
+.blog {
+  display: flex;
+  gap: 25px;
+}
+
+.upperblog img {
+  width: 100%;
+}
+
 .first-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  height: 500px;
+}
+
+.sliderr {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.slider-icons {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.sliderr-icons {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #5851ea;
+}
+
+.reviewone {
+  max-width: 770px;
+  min-height: 357px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
   display: grid;
+  place-items: center;
+  padding: 3rem 1rem;
+  gap: 1rem;
+}
+.reviewone p {
+  color: #6c6c72;
+  max-width: 100ch;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 1.5rem;
+}
+.reviewone h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.our-relativee {
+  display: flex;
+  position: relative;
+}
+
+.flex-one {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 5%;
+  height: 388px;
+  width: 771px;
+}
+
+.flex-two {
+  margin-left: 120px;
+}
+
+.flex-three {
+  margin-right: 120px;
 }
