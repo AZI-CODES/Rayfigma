@@ -124,6 +124,7 @@ h3 {
 .right-m-nav button {
   height: 50px;
   width: 150px;
+  border: none;
   position: absolute;
   right: 1%;
   bottom: -70%;
